@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Sort</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='1' y='9' width='3' height='6' rx='1' fill='%2378716c'/><rect x='6.5' y='5' width='3' height='10' rx='1' fill='%2378716c'/><rect x='12' y='1' width='3' height='14' rx='1' fill='%2378716c'/></svg>">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Image sort</h1>
+      <span class="muted" id="model">Decisions API</span>
+    </header>
+
+    <form id="form" autocomplete="off">
+      <input id="prompt" name="prompt" placeholder="Sort by… e.g. lives in water" maxlength="500" aria-label="Prompt" required>
+      <select id="type" aria-label="Question type" title="Question type">
+        <option value="predicate">Predicate</option>
+        <option value="score">Score</option>
+      </select>
+      <select id="detail" aria-label="Image detail" title="Image detail">
+        <option value="auto">Detail auto</option>
+        <option value="low">Detail low</option>
+        <option value="high">Detail high</option>
+      </select>
+      <button id="go" type="submit">Sort</button>
+    </form>
+
+    <p class="examples muted">
+      Try
+      <button type="button" class="link">lives in water</button>
+      <button type="button" class="link">could hurt a human</button>
+      <button type="button" class="link">has feathers</button>
+      <button type="button" class="link">How cute is this animal?</button>
+    </p>
+
+    <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+
+    <dl class="stats">
+      <div><dt>Images</dt><dd id="s-images">—</dd></div>
+      <div><dt>Wall time</dt><dd id="s-wall">—</dd></div>
+      <div><dt>Latency p50</dt><dd id="s-p50">—</dd></div>
+      <div><dt>Latency p95</dt><dd id="s-p95">—</dd></div>
+      <div><dt>Input tokens</dt><dd id="s-tokens">—</dd></div>
+      <div><dt>Cost</dt><dd id="s-cost">—</dd></div>
+    </dl>
+
+    <p id="notice" class="notice" hidden></p>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+
+    <section class="runs" id="runs-section" hidden>
+      <h2>Runs</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Prompt</th><th>Type</th><th>Detail</th><th class="num">Images</th><th class="num">Wall</th>
+              <th class="num">p50</th><th class="num">p95</th><th class="num">Tokens / img</th><th class="num">Cost</th><th class="num">$ / 1k img</th>
+            </tr>
+          </thead>
+          <tbody id="runs"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="muted" id="credits"></footer>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

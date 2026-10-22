@@ -1,0 +1,969 @@
+{
+  "dataset": {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org",
+    "license": "CC0, CC BY and CC BY-SA photos, credited in data/animals/manifest.json"
+  },
+  "images": [
+    {
+      "file": "red-fox-1.jpg",
+      "thumb": "thumbs/red-fox-1.jpg",
+      "label": "Red Fox",
+      "species": "Vulpes vulpes",
+      "license": "CC0",
+      "author": "Terry Brunholtz",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/327531235"
+    },
+    {
+      "file": "brown-bear-1.jpg",
+      "thumb": "thumbs/brown-bear-1.jpg",
+      "label": "Brown Bear",
+      "species": "Ursus arctos",
+      "license": "CC BY",
+      "author": "Annika Lindqvist",
+      "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/7383584"
+    },
+    {
+      "file": "lion-1.jpg",
+      "thumb": "thumbs/lion-1.jpg",
+      "label": "Lion",
+      "species": "Panthera leo",
+      "license": "CC BY-SA",
+      "author": "David Knox",
+      "attribution": "(c) David Knox, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/173202924"
+    },
+    {
+      "file": "african-elephant-1.jpg",
+      "thumb": "thumbs/african-elephant-1.jpg",
+      "label": "African Elephant",
+      "species": "Loxodonta africana",
+      "license": "CC BY",
+      "author": "Dirk Froebel",
+      "attribution": "(c) Dirk Froebel, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/168473708"
+    },
+    {
+      "file": "giraffe-1.jpg",
+      "thumb": "thumbs/giraffe-1.jpg",
+      "label": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "license": "CC BY-SA",
+      "author": "Dan Harville",
+      "attribution": "(c) Dan Harville, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/135250760"
+    },
+    {
+      "file": "plains-zebra-1.jpg",
+      "thumb": "thumbs/plains-zebra-1.jpg",
+      "label": "Plains Zebra",
+      "species": "Equus quagga",
+      "license": "CC BY-SA",
+      "author": "Emanuele Santarelli",
+      "attribution": "(c) Emanuele Santarelli, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/149930971"
+    },
+    {
+      "file": "raccoon-1.jpg",
+      "thumb": "thumbs/raccoon-1.jpg",
+      "label": "Raccoon",
+      "species": "Procyon lotor",
+      "license": "CC BY",
+      "author": "Justin Flint",
+      "attribution": "(c) Justin Flint, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/92187738"
+    },
+    {
+      "file": "european-hedgehog-1.jpg",
+      "thumb": "thumbs/european-hedgehog-1.jpg",
+      "label": "European Hedgehog",
+      "species": "Erinaceus europaeus",
+      "license": "CC BY",
+      "author": "Codrin Bucur",
+      "attribution": "(c) Codrin Bucur, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/75452190"
+    },
+    {
+      "file": "harbor-seal-1.jpg",
+      "thumb": "thumbs/harbor-seal-1.jpg",
+      "label": "Harbor Seal",
+      "species": "Phoca vitulina",
+      "license": "CC BY",
+      "author": "Dan Vickers",
+      "attribution": "(c) Dan Vickers, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/256033124"
+    },
+    {
+      "file": "atlantic-puffin-1.jpg",
+      "thumb": "thumbs/atlantic-puffin-1.jpg",
+      "label": "Atlantic Puffin",
+      "species": "Fratercula arctica",
+      "license": "CC BY",
+      "author": "Huey",
+      "attribution": "(c) Huey, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/289718369"
+    },
+    {
+      "file": "mallard-1.jpg",
+      "thumb": "thumbs/mallard-1.jpg",
+      "label": "Mallard",
+      "species": "Anas platyrhynchos",
+      "license": "CC BY",
+      "author": "Codrin Bucur",
+      "attribution": "(c) Codrin Bucur, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/105737491"
+    },
+    {
+      "file": "bald-eagle-1.jpg",
+      "thumb": "thumbs/bald-eagle-1.jpg",
+      "label": "Bald Eagle",
+      "species": "Haliaeetus leucocephalus",
+      "license": "CC BY",
+      "author": "Justin Flint",
+      "attribution": "(c) Justin Flint, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/335312498"
+    },
+    {
+      "file": "snowy-owl-1.jpg",
+      "thumb": "thumbs/snowy-owl-1.jpg",
+      "label": "Snowy Owl",
+      "species": "Bubo scandiacus",
+      "license": "CC BY",
+      "author": "Andrew Bazdyrev",
+      "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/149963344"
+    },
+    {
+      "file": "greater-flamingo-1.jpg",
+      "thumb": "thumbs/greater-flamingo-1.jpg",
+      "label": "Greater Flamingo",
+      "species": "Phoenicopterus roseus",
+      "license": "CC0",
+      "author": "Irene",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/394274362"
+    },
+    {
+      "file": "gentoo-penguin-1.jpg",
+      "thumb": "thumbs/gentoo-penguin-1.jpg",
+      "label": "Gentoo Penguin",
+      "species": "Pygoscelis papua",
+      "license": "CC BY",
+      "author": "patrickc",
+      "attribution": "(c) patrickc, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/328339621"
+    },
+    {
+      "file": "green-sea-turtle-1.jpg",
+      "thumb": "thumbs/green-sea-turtle-1.jpg",
+      "label": "Green Sea Turtle",
+      "species": "Chelonia mydas",
+      "license": "CC BY",
+      "author": "Matteo Bellucci",
+      "attribution": "(c) Matteo Bellucci, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/344728191"
+    },
+    {
+      "file": "american-alligator-1.jpg",
+      "thumb": "thumbs/american-alligator-1.jpg",
+      "label": "American Alligator",
+      "species": "Alligator mississippiensis",
+      "license": "CC BY",
+      "author": "David F. Belmonte",
+      "attribution": "(c) David F. Belmonte, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/64144514"
+    },
+    {
+      "file": "red-eyed-tree-frog-1.jpg",
+      "thumb": "thumbs/red-eyed-tree-frog-1.jpg",
+      "label": "Red-eyed Tree Frog",
+      "species": "Agalychnis callidryas",
+      "license": "CC BY",
+      "author": "Brian Gratwicke",
+      "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/25105320"
+    },
+    {
+      "file": "western-diamondback-rattlesnake-1.jpg",
+      "thumb": "thumbs/western-diamondback-rattlesnake-1.jpg",
+      "label": "Western Diamondback Rattlesnake",
+      "species": "Crotalus atrox",
+      "license": "CC0",
+      "author": "Jason Leduc",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/207984725"
+    },
+    {
+      "file": "clownfish-1.jpg",
+      "thumb": "thumbs/clownfish-1.jpg",
+      "label": "Clownfish",
+      "species": "Amphiprion ocellaris",
+      "license": "CC BY",
+      "author": "Ria Qorina Lubis",
+      "attribution": "(c) Ria Qorina Lubis, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/1531121"
+    },
+    {
+      "file": "common-octopus-1.jpg",
+      "thumb": "thumbs/common-octopus-1.jpg",
+      "label": "Common Octopus",
+      "species": "Octopus vulgaris",
+      "license": "CC BY",
+      "author": "Sylvain Montagner",
+      "attribution": "(c) Sylvain Montagner, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/390869532"
+    },
+    {
+      "file": "monarch-butterfly-1.jpg",
+      "thumb": "thumbs/monarch-butterfly-1.jpg",
+      "label": "Monarch Butterfly",
+      "species": "Danaus plexippus",
+      "license": "CC BY",
+      "author": "Shirley Zundell",
+      "attribution": "(c) Shirley Zundell, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/28901993"
+    },
+    {
+      "file": "honey-bee-1.jpg",
+      "thumb": "thumbs/honey-bee-1.jpg",
+      "label": "Honey Bee",
+      "species": "Apis mellifera",
+      "license": "CC0",
+      "author": "Kirill Levchenko",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/301604008"
+    },
+    {
+      "file": "garden-spider-1.jpg",
+      "thumb": "thumbs/garden-spider-1.jpg",
+      "label": "Garden Spider",
+      "species": "Araneus diadematus",
+      "license": "CC BY",
+      "author": "Marcel_Pepin",
+      "attribution": "(c) Marcel_Pepin, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/313988012"
+    },
+    {
+      "file": "red-fox-2.jpg",
+      "thumb": "thumbs/red-fox-2.jpg",
+      "label": "Red Fox",
+      "species": "Vulpes vulpes",
+      "license": "CC BY",
+      "author": "Joeb",
+      "attribution": "(c) Joeb, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/402187737"
+    },
+    {
+      "file": "brown-bear-2.jpg",
+      "thumb": "thumbs/brown-bear-2.jpg",
+      "label": "Brown Bear",
+      "species": "Ursus arctos",
+      "license": "CC BY-SA",
+      "author": "Romain Boisseau",
+      "attribution": "(c) Romain Boisseau, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/341909940"
+    },
+    {
+      "file": "lion-2.jpg",
+      "thumb": "thumbs/lion-2.jpg",
+      "label": "Lion",
+      "species": "Panthera leo",
+      "license": "CC BY",
+      "author": "Dirk Froebel",
+      "attribution": "(c) Dirk Froebel, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/167180005"
+    },
+    {
+      "file": "african-elephant-2.jpg",
+      "thumb": "thumbs/african-elephant-2.jpg",
+      "label": "African Elephant",
+      "species": "Loxodonta africana",
+      "license": "CC0",
+      "author": "Simon Tonge",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/9007458"
+    },
+    {
+      "file": "giraffe-2.jpg",
+      "thumb": "thumbs/giraffe-2.jpg",
+      "label": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "license": "CC BY",
+      "author": "B Pulman005",
+      "attribution": "(c) B Pulman005, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/330772102"
+    },
+    {
+      "file": "plains-zebra-2.jpg",
+      "thumb": "thumbs/plains-zebra-2.jpg",
+      "label": "Plains Zebra",
+      "species": "Equus quagga",
+      "license": "CC BY",
+      "author": "Francis",
+      "attribution": "(c) Francis, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/263431074"
+    },
+    {
+      "file": "raccoon-2.jpg",
+      "thumb": "thumbs/raccoon-2.jpg",
+      "label": "Raccoon",
+      "species": "Procyon lotor",
+      "license": "CC BY-SA",
+      "author": "Nova Patch",
+      "attribution": "(c) Nova Patch, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/20268994"
+    },
+    {
+      "file": "european-hedgehog-2.jpg",
+      "thumb": "thumbs/european-hedgehog-2.jpg",
+      "label": "European Hedgehog",
+      "species": "Erinaceus europaeus",
+      "license": "CC BY",
+      "author": "Saryu Mae 前 朝琉",
+      "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/108408844"
+    },
+    {
+      "file": "harbor-seal-2.png",
+      "thumb": "thumbs/harbor-seal-2.png",
+      "label": "Harbor Seal",
+      "species": "Phoca vitulina",
+      "license": "CC BY-SA",
+      "author": "David Badke",
+      "attribution": "(c) David Badke, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/6009752"
+    },
+    {
+      "file": "atlantic-puffin-2.jpg",
+      "thumb": "thumbs/atlantic-puffin-2.jpg",
+      "label": "Atlantic Puffin",
+      "species": "Fratercula arctica",
+      "license": "CC BY",
+      "author": "Charlotte Kirchner",
+      "attribution": "(c) Charlotte Kirchner, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/369082417"
+    },
+    {
+      "file": "mallard-2.jpg",
+      "thumb": "thumbs/mallard-2.jpg",
+      "label": "Mallard",
+      "species": "Anas platyrhynchos",
+      "license": "CC0",
+      "author": "Sean B",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/77299726"
+    },
+    {
+      "file": "bald-eagle-2.jpg",
+      "thumb": "thumbs/bald-eagle-2.jpg",
+      "label": "Bald Eagle",
+      "species": "Haliaeetus leucocephalus",
+      "license": "CC BY-SA",
+      "author": "Judy Gallagher",
+      "attribution": "(c) Judy Gallagher, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/340586345"
+    },
+    {
+      "file": "snowy-owl-2.jpg",
+      "thumb": "thumbs/snowy-owl-2.jpg",
+      "label": "Snowy Owl",
+      "species": "Bubo scandiacus",
+      "license": "CC BY",
+      "author": "sofi v",
+      "attribution": "(c) sofi v, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/335138164"
+    },
+    {
+      "file": "greater-flamingo-2.jpg",
+      "thumb": "thumbs/greater-flamingo-2.jpg",
+      "label": "Greater Flamingo",
+      "species": "Phoenicopterus roseus",
+      "license": "CC BY-SA",
+      "author": "Lucas Benaiche",
+      "attribution": "(c) Lucas Benaiche, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/333175868"
+    },
+    {
+      "file": "gentoo-penguin-2.jpg",
+      "thumb": "thumbs/gentoo-penguin-2.jpg",
+      "label": "Gentoo Penguin",
+      "species": "Pygoscelis papua",
+      "license": "CC BY",
+      "author": "Ingvild Riska",
+      "attribution": "(c) Ingvild Riska, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/330641776"
+    },
+    {
+      "file": "green-sea-turtle-2.jpg",
+      "thumb": "thumbs/green-sea-turtle-2.jpg",
+      "label": "Green Sea Turtle",
+      "species": "Chelonia mydas",
+      "license": "CC BY",
+      "author": "Dan Schofield",
+      "attribution": "(c) Dan Schofield, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/174049806"
+    },
+    {
+      "file": "american-alligator-2.jpg",
+      "thumb": "thumbs/american-alligator-2.jpg",
+      "label": "American Alligator",
+      "species": "Alligator mississippiensis",
+      "license": "CC BY",
+      "author": "Larry Jensen",
+      "attribution": "(c) Larry Jensen, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/192978716"
+    },
+    {
+      "file": "red-eyed-tree-frog-2.jpg",
+      "thumb": "thumbs/red-eyed-tree-frog-2.jpg",
+      "label": "Red-eyed Tree Frog",
+      "species": "Agalychnis callidryas",
+      "license": "CC BY-SA",
+      "author": "Norman Salazar Arguedas",
+      "attribution": "(c) Norman Salazar Arguedas, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/34514515"
+    },
+    {
+      "file": "western-diamondback-rattlesnake-2.jpg",
+      "thumb": "thumbs/western-diamondback-rattlesnake-2.jpg",
+      "label": "Western Diamondback Rattlesnake",
+      "species": "Crotalus atrox",
+      "license": "CC BY",
+      "author": "Dee Shea Himes",
+      "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/131264240"
+    },
+    {
+      "file": "clownfish-2.jpg",
+      "thumb": "thumbs/clownfish-2.jpg",
+      "label": "Clownfish",
+      "species": "Amphiprion ocellaris",
+      "license": "CC BY",
+      "author": "Ian Dugdale",
+      "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/302589833"
+    },
+    {
+      "file": "common-octopus-2.jpg",
+      "thumb": "thumbs/common-octopus-2.jpg",
+      "label": "Common Octopus",
+      "species": "Octopus vulgaris",
+      "license": "CC BY",
+      "author": "Ancor Ortega",
+      "attribution": "(c) Ancor Ortega, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/180420305"
+    },
+    {
+      "file": "monarch-butterfly-2.jpg",
+      "thumb": "thumbs/monarch-butterfly-2.jpg",
+      "label": "Monarch Butterfly",
+      "species": "Danaus plexippus",
+      "license": "CC BY",
+      "author": "Sam Kieschnick",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/95204643"
+    },
+    {
+      "file": "honey-bee-2.jpg",
+      "thumb": "thumbs/honey-bee-2.jpg",
+      "label": "Honey Bee",
+      "species": "Apis mellifera",
+      "license": "CC BY",
+      "author": "Gavin Slater",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/240243997"
+    },
+    {
+      "file": "garden-spider-2.jpg",
+      "thumb": "thumbs/garden-spider-2.jpg",
+      "label": "Garden Spider",
+      "species": "Araneus diadematus",
+      "license": "CC0",
+      "author": "Chuck Wilson",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/313153217"
+    },
+    {
+      "file": "red-fox-3.jpg",
+      "thumb": "thumbs/red-fox-3.jpg",
+      "label": "Red Fox",
+      "species": "Vulpes vulpes",
+      "license": "CC BY",
+      "author": "Rev. Lee A. Payne, Jr.",
+      "attribution": "(c) Rev. Lee A. Payne, Jr., some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/256126734"
+    },
+    {
+      "file": "brown-bear-3.jpg",
+      "thumb": "thumbs/brown-bear-3.jpg",
+      "label": "Brown Bear",
+      "species": "Ursus arctos",
+      "license": "CC BY",
+      "author": "Валерия Ковалева",
+      "attribution": "(c) Валерия Ковалева, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/233025196"
+    },
+    {
+      "file": "lion-3.jpg",
+      "thumb": "thumbs/lion-3.jpg",
+      "label": "Lion",
+      "species": "Panthera leo",
+      "license": "CC BY",
+      "author": "Josiah Londerée",
+      "attribution": "(c) Josiah Londerée, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/232752709"
+    },
+    {
+      "file": "african-elephant-3.jpg",
+      "thumb": "thumbs/african-elephant-3.jpg",
+      "label": "African Elephant",
+      "species": "Loxodonta africana",
+      "license": "CC0",
+      "author": "NINA WENÓLI",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/81255880"
+    },
+    {
+      "file": "giraffe-3.jpg",
+      "thumb": "thumbs/giraffe-3.jpg",
+      "label": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "license": "CC BY",
+      "author": "Tom Kennedy",
+      "attribution": "(c) Tom Kennedy, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/103096805"
+    },
+    {
+      "file": "plains-zebra-3.jpg",
+      "thumb": "thumbs/plains-zebra-3.jpg",
+      "label": "Plains Zebra",
+      "species": "Equus quagga",
+      "license": "CC BY",
+      "author": "Codrin Bucur",
+      "attribution": "(c) Codrin Bucur, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/329861775"
+    },
+    {
+      "file": "raccoon-3.jpg",
+      "thumb": "thumbs/raccoon-3.jpg",
+      "label": "Raccoon",
+      "species": "Procyon lotor",
+      "license": "CC BY-SA",
+      "author": "Gordon Johnston",
+      "attribution": "(c) Gordon Johnston, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/71083736"
+    },
+    {
+      "file": "european-hedgehog-3.jpg",
+      "thumb": "thumbs/european-hedgehog-3.jpg",
+      "label": "European Hedgehog",
+      "species": "Erinaceus europaeus",
+      "license": "CC0",
+      "author": "Brian Howitz",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/92774302"
+    },
+    {
+      "file": "harbor-seal-3.jpg",
+      "thumb": "thumbs/harbor-seal-3.jpg",
+      "label": "Harbor Seal",
+      "species": "Phoca vitulina",
+      "license": "CC BY-SA",
+      "author": "Dan Harville",
+      "attribution": "(c) Dan Harville, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/138882789"
+    },
+    {
+      "file": "atlantic-puffin-3.jpg",
+      "thumb": "thumbs/atlantic-puffin-3.jpg",
+      "label": "Atlantic Puffin",
+      "species": "Fratercula arctica",
+      "license": "CC BY",
+      "author": "Hazza",
+      "attribution": "(c) Hazza, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/68675589"
+    },
+    {
+      "file": "mallard-3.jpg",
+      "thumb": "thumbs/mallard-3.jpg",
+      "label": "Mallard",
+      "species": "Anas platyrhynchos",
+      "license": "CC BY",
+      "author": "Blake Ross",
+      "attribution": "(c) Blake Ross, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/102309744"
+    },
+    {
+      "file": "bald-eagle-3.jpg",
+      "thumb": "thumbs/bald-eagle-3.jpg",
+      "label": "Bald Eagle",
+      "species": "Haliaeetus leucocephalus",
+      "license": "CC0",
+      "author": "Andy Wilson",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/138673200"
+    },
+    {
+      "file": "snowy-owl-3.jpg",
+      "thumb": "thumbs/snowy-owl-3.jpg",
+      "label": "Snowy Owl",
+      "species": "Bubo scandiacus",
+      "license": "CC BY",
+      "author": "Kalvin Chan",
+      "attribution": "(c) Kalvin Chan, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/145403722"
+    },
+    {
+      "file": "greater-flamingo-3.jpg",
+      "thumb": "thumbs/greater-flamingo-3.jpg",
+      "label": "Greater Flamingo",
+      "species": "Phoenicopterus roseus",
+      "license": "CC BY",
+      "author": "Seema Merchant",
+      "attribution": "(c) Seema Merchant, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/194434248"
+    },
+    {
+      "file": "gentoo-penguin-3.jpg",
+      "thumb": "thumbs/gentoo-penguin-3.jpg",
+      "label": "Gentoo Penguin",
+      "species": "Pygoscelis papua",
+      "license": "CC0",
+      "author": "steve b",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/107779876"
+    },
+    {
+      "file": "green-sea-turtle-3.jpg",
+      "thumb": "thumbs/green-sea-turtle-3.jpg",
+      "label": "Green Sea Turtle",
+      "species": "Chelonia mydas",
+      "license": "CC BY",
+      "author": "Olivier Niederhauser",
+      "attribution": "(c) Olivier Niederhauser, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/171899441"
+    },
+    {
+      "file": "american-alligator-3.png",
+      "thumb": "thumbs/american-alligator-3.png",
+      "label": "American Alligator",
+      "species": "Alligator mississippiensis",
+      "license": "CC0",
+      "author": "buriedanimal",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/164465843"
+    },
+    {
+      "file": "red-eyed-tree-frog-3.jpg",
+      "thumb": "thumbs/red-eyed-tree-frog-3.jpg",
+      "label": "Red-eyed Tree Frog",
+      "species": "Agalychnis callidryas",
+      "license": "CC BY",
+      "author": "Matt Felperin",
+      "attribution": "(c) Matt Felperin, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/338092905"
+    },
+    {
+      "file": "western-diamondback-rattlesnake-3.jpg",
+      "thumb": "thumbs/western-diamondback-rattlesnake-3.jpg",
+      "label": "Western Diamondback Rattlesnake",
+      "species": "Crotalus atrox",
+      "license": "CC BY",
+      "author": "Steadtler A",
+      "attribution": "(c) Steadtler A, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/247247939"
+    },
+    {
+      "file": "clownfish-3.jpg",
+      "thumb": "thumbs/clownfish-3.jpg",
+      "label": "Clownfish",
+      "species": "Amphiprion ocellaris",
+      "license": "CC BY-SA",
+      "author": "Ditch Townsend",
+      "attribution": "(c) Ditch Townsend, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/205426436"
+    },
+    {
+      "file": "common-octopus-3.jpg",
+      "thumb": "thumbs/common-octopus-3.jpg",
+      "label": "Common Octopus",
+      "species": "Octopus vulgaris",
+      "license": "CC BY",
+      "author": "Justin Ponder",
+      "attribution": "(c) Justin Ponder, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/178998163"
+    },
+    {
+      "file": "monarch-butterfly-3.jpg",
+      "thumb": "thumbs/monarch-butterfly-3.jpg",
+      "label": "Monarch Butterfly",
+      "species": "Danaus plexippus",
+      "license": "CC BY",
+      "author": "Tom Norton",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/32099392"
+    },
+    {
+      "file": "honey-bee-3.jpg",
+      "thumb": "thumbs/honey-bee-3.jpg",
+      "label": "Honey Bee",
+      "species": "Apis mellifera",
+      "license": "CC BY-SA",
+      "author": "Andrew Gillespie",
+      "attribution": "(c) Andrew Gillespie, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/76894506"
+    },
+    {
+      "file": "garden-spider-3.jpg",
+      "thumb": "thumbs/garden-spider-3.jpg",
+      "label": "Garden Spider",
+      "species": "Araneus diadematus",
+      "license": "CC BY",
+      "author": "Konrad Kałużyński",
+      "attribution": "(c) Konrad Kałużyński, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/94571031"
+    },
+    {
+      "file": "red-fox-4.jpg",
+      "thumb": "thumbs/red-fox-4.jpg",
+      "label": "Red Fox",
+      "species": "Vulpes vulpes",
+      "license": "CC BY",
+      "author": "Dominic Mitchell",
+      "attribution": "(c) Dominic Mitchell, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/391324915"
+    },
+    {
+      "file": "brown-bear-4.jpg",
+      "thumb": "thumbs/brown-bear-4.jpg",
+      "label": "Brown Bear",
+      "species": "Ursus arctos",
+      "license": "CC BY",
+      "author": "Codrin Bucur",
+      "attribution": "(c) Codrin Bucur, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/87006625"
+    },
+    {
+      "file": "lion-4.jpg",
+      "thumb": "thumbs/lion-4.jpg",
+      "label": "Lion",
+      "species": "Panthera leo",
+      "license": "CC BY",
+      "author": "kalyanvarma",
+      "attribution": "(c) kalyanvarma, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/198038785"
+    },
+    {
+      "file": "african-elephant-4.jpg",
+      "thumb": "thumbs/african-elephant-4.jpg",
+      "label": "African Elephant",
+      "species": "Loxodonta africana",
+      "license": "CC BY",
+      "author": "Tim",
+      "attribution": "(c) Tim, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/263054828"
+    },
+    {
+      "file": "giraffe-4.jpg",
+      "thumb": "thumbs/giraffe-4.jpg",
+      "label": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "license": "CC BY",
+      "author": "Tom Heijnen",
+      "attribution": "(c) Tom Heijnen, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/323129116"
+    },
+    {
+      "file": "plains-zebra-4.jpg",
+      "thumb": "thumbs/plains-zebra-4.jpg",
+      "label": "Plains Zebra",
+      "species": "Equus quagga",
+      "license": "CC BY",
+      "author": "Shaun Swanepoel",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/40541314"
+    },
+    {
+      "file": "raccoon-4.jpg",
+      "thumb": "thumbs/raccoon-4.jpg",
+      "label": "Raccoon",
+      "species": "Procyon lotor",
+      "license": "CC0",
+      "author": "Dennis White",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/382432010"
+    },
+    {
+      "file": "european-hedgehog-4.jpg",
+      "thumb": "thumbs/european-hedgehog-4.jpg",
+      "label": "European Hedgehog",
+      "species": "Erinaceus europaeus",
+      "license": "CC BY-SA",
+      "author": "Christopher Stephens",
+      "attribution": "(c) Christopher Stephens, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/139510169"
+    },
+    {
+      "file": "harbor-seal-4.jpg",
+      "thumb": "thumbs/harbor-seal-4.jpg",
+      "label": "Harbor Seal",
+      "species": "Phoca vitulina",
+      "license": "CC BY-SA",
+      "author": "snoozehawk",
+      "attribution": "(c) snoozehawk, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/247424184"
+    },
+    {
+      "file": "atlantic-puffin-4.jpg",
+      "thumb": "thumbs/atlantic-puffin-4.jpg",
+      "label": "Atlantic Puffin",
+      "species": "Fratercula arctica",
+      "license": "CC BY-SA",
+      "author": "Dan Harville",
+      "attribution": "(c) Dan Harville, some rights reserved (CC BY-SA)",
+      "source": "https://www.inaturalist.org/observations/134736229"
+    },
+    {
+      "file": "mallard-4.jpg",
+      "thumb": "thumbs/mallard-4.jpg",
+      "label": "Mallard",
+      "species": "Anas platyrhynchos",
+      "license": "CC BY",
+      "author": "Олег Юмашев",
+      "attribution": "(c) Олег Юмашев, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/386587253"
+    },
+    {
+      "file": "bald-eagle-4.jpg",
+      "thumb": "thumbs/bald-eagle-4.jpg",
+      "label": "Bald Eagle",
+      "species": "Haliaeetus leucocephalus",
+      "license": "CC0",
+      "author": "Adam Jackson",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/242913275"
+    },
+    {
+      "file": "snowy-owl-4.jpg",
+      "thumb": "thumbs/snowy-owl-4.jpg",
+      "label": "Snowy Owl",
+      "species": "Bubo scandiacus",
+      "license": "CC BY",
+      "author": "Eric Habisch",
+      "attribution": "(c) Eric Habisch, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/349173164"
+    },
+    {
+      "file": "greater-flamingo-4.jpg",
+      "thumb": "thumbs/greater-flamingo-4.jpg",
+      "label": "Greater Flamingo",
+      "species": "Phoenicopterus roseus",
+      "license": "CC BY",
+      "author": "Duarte Frade",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/40071777"
+    },
+    {
+      "file": "gentoo-penguin-4.jpg",
+      "thumb": "thumbs/gentoo-penguin-4.jpg",
+      "label": "Gentoo Penguin",
+      "species": "Pygoscelis papua",
+      "license": "CC BY",
+      "author": "yongestation",
+      "attribution": "(c) yongestation, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/331042688"
+    },
+    {
+      "file": "green-sea-turtle-4.jpg",
+      "thumb": "thumbs/green-sea-turtle-4.jpg",
+      "label": "Green Sea Turtle",
+      "species": "Chelonia mydas",
+      "license": "CC BY",
+      "author": "João D'Andretta",
+      "attribution": "(c) João D'Andretta, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/101710521"
+    },
+    {
+      "file": "american-alligator-4.jpg",
+      "thumb": "thumbs/american-alligator-4.jpg",
+      "label": "American Alligator",
+      "species": "Alligator mississippiensis",
+      "license": "CC BY",
+      "author": "Sam Kieschnick",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/314451567"
+    },
+    {
+      "file": "red-eyed-tree-frog-4.jpg",
+      "thumb": "thumbs/red-eyed-tree-frog-4.jpg",
+      "label": "Red-eyed Tree Frog",
+      "species": "Agalychnis callidryas",
+      "license": "CC0",
+      "author": "mularo1",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/128252755"
+    },
+    {
+      "file": "western-diamondback-rattlesnake-4.jpg",
+      "thumb": "thumbs/western-diamondback-rattlesnake-4.jpg",
+      "label": "Western Diamondback Rattlesnake",
+      "species": "Crotalus atrox",
+      "license": "CC BY",
+      "author": "L. Reid",
+      "attribution": "(c) L. Reid, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/396258749"
+    },
+    {
+      "file": "clownfish-4.jpg",
+      "thumb": "thumbs/clownfish-4.jpg",
+      "label": "Clownfish",
+      "species": "Amphiprion ocellaris",
+      "license": "CC BY",
+      "author": "Petr Knotek",
+      "attribution": "(c) Petr Knotek, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/186386610"
+    },
+    {
+      "file": "common-octopus-4.jpg",
+      "thumb": "thumbs/common-octopus-4.jpg",
+      "label": "Common Octopus",
+      "species": "Octopus vulgaris",
+      "license": "CC BY",
+      "author": "Charlotte Kirchner",
+      "attribution": "(c) Charlotte Kirchner, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/289308645"
+    },
+    {
+      "file": "monarch-butterfly-4.jpg",
+      "thumb": "thumbs/monarch-butterfly-4.jpg",
+      "label": "Monarch Butterfly",
+      "species": "Danaus plexippus",
+      "license": "CC0",
+      "author": "Dave West",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/101410048"
+    },
+    {
+      "file": "honey-bee-4.jpg",
+      "thumb": "thumbs/honey-bee-4.jpg",
+      "label": "Honey Bee",
+      "species": "Apis mellifera",
+      "license": "CC0",
+      "author": "Richard Fuller",
+      "attribution": "no rights reserved",
+      "source": "https://www.inaturalist.org/observations/267774084"
+    },
+    {
+      "file": "garden-spider-4.jpg",
+      "thumb": "thumbs/garden-spider-4.jpg",
+      "label": "Garden Spider",
+      "species": "Araneus diadematus",
+      "license": "CC BY",
+      "author": "Joseph Rojas",
+      "attribution": "(c) Joseph Rojas, some rights reserved (CC BY)",
+      "source": "https://www.inaturalist.org/observations/135775005"
+    }
+  ]
+}

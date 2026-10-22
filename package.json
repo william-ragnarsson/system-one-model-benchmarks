@@ -1,0 +1,13 @@
+{
+  "name": "image-sort",
+  "private": true,
+  "description": "Sort a folder of animal photos by a prompt with the OpenAI Decisions API, tracking speed and cost.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "fetch-images": "node scripts/fetch-images.js"
+  }
+}
